@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart"/>
 </head>
 <body>
@@ -23,7 +22,14 @@
                 <li><a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
                     <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
                   </svg></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
             </ul>
+        </div>
+        <div id="tab">
+            <a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+              </svg></a>
+              <i id="bar" class="fas fa-outdent"></i>
         </div>
     </section>
     <section id="heroFrame">
@@ -360,8 +366,72 @@
             
         </div>
         
+    </section>  
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
     </section>
-    
-    
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/brandLogo.png" id="logoB" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 602, Phase-3, Hinjewadi, Pune, 602105</p>
+            <p><strong>Hours:</strong> 09:00 - 20:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f" id="face"></i>
+                    <i class="fab fa-instagram" id="insta"></i>
+                    <i class="fab fa-twitter" id="twi"></i>
+                    <i class="fab fa-pinterest" id="pin"></i>
+                    <i class="fab fa-youtube" id="yt"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Instructions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <a href="https://apps.apple.com" target="_blank">
+                    <img src="img/pay/app.jpg" alt="App Store">
+                  </a>
+                  <a href="https://play.google.com" target="_blank">
+                    <img src="img/pay/play.jpg" alt="Google Play Store">
+                  </a>
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img/pay/pay.png">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Luxemi Pvt. Ltd. Ecommerce Site Since 1999</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
 </body>
-</html>
+</html> 
